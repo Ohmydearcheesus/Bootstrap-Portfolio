@@ -1,0 +1,48 @@
+:root {
+  --accent-color-1: white;
+  --accent-color-2: rgb(230, 255, 255);
+  --bg-color-1: rgb(240, 250, 255);
+  --bg-color-2: rgb(230, 230, 240);
+  --bg-color-3: grey;
+}
+
+body {
+  /* background-color: var(--bg-color-2); */
+  background-image: url("../tileable_wood_texture_@2X.png");
+}
+
+a {
+  margin-top: 50px;
+  padding: 50px 20px 15px 20px;
+  font-size: 1.25em;
+  color: var(--accent-color-1);
+}
+
+p {
+  background-color: var(--bg-color-1);
+  padding: 30px 50px 10px 50px;
+}
+
+.button {
+  padding-top: 50px;
+}
+
+.name {
+  color: var(--accent-color-1);
+  text-align: center;
+  padding: 30px 0px 5px 0px;
+}
+
+#navbar {
+  border-bottom: 5px solid var(--accent-color-2);
+  background-color: var(--bg-color-3);
+}
+
+img {
+  float: left;
+  padding: 10px;
+}
+
+article {
+  padding-top: 50px;
+}
