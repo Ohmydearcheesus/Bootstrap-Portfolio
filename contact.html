@@ -44,45 +44,47 @@
   </nav>
 
   <!--MAIN CONTENT-->
-  <article class="container form">
+  <article class="container">
     <div class="row">
       <div class="col-sm-2"></div>
-      <div class="col-sm-8">
+
+      <div class="col-sm-8 form">
         <h2>Contact</h2>
       </div>
     </div>
+
     <div class="row">
-      <div class="col-sm-2"></div>
-      <div class="col-sm-8">
+      <div class="col-sm-2 col-xs-1"></div>
+
+      <div class="col-sm-8 col-xs-10 form">
+        <!--To make the form data go somewhere upon submission, replace the #. Goes nowhere for now-->
         <form action="#">
           Name<br />
-          <input id="info" type="text" name="name" value="John Smith" />
+          <input id="info" type="text" name="name" value="John Smith" /> <br />
+          Email<br />
+          <input id="info" type="text" name="email" value="example@email.com" />
+          <br />
+          Message<br />
+          <input type="text" name="message" value="" /> <br />
+
+          <!-- <div id="message" style="border-color:red;border-style:solid;border-width:1px;">  -->
+          <div class="row">
+            <div class="col-sm-2 col-xs-1"></div>
+            <div class="col-sm-8 col-xs-10 form">
+              <button id="submit" type="button">Submit</button>
+            </div>
+          </div>
         </form>
+
+        <!--FOOTER-->
+        <footer class="page-footer fixed-bottom" id="footer">
+          <div class="footer-copyright text-center py-3">
+            <p style="background-color:rgb(180,180,180);">
+              Copyright &copy;
+            </p>
+          </div>
+        </footer>
       </div>
     </div>
-
-    <!--To make the form data go somewhere upon submission, replace the #. Goes nowhere for now-->
-    <form action="#">
-      Name<br />
-      <input id="info" type="text" name="name" value="John Smith" /> <br />
-      Email<br />
-      <input id="info" type="text" name="email" value="example@email.com" />
-      <br />
-      Message<br />
-      <input type="text" name="message" value="" /> <br />
-
-      <!-- <div id="message" style="border-color:red;border-style:solid;border-width:1px;">  -->
-
-      <button id="submit" type="button">Submit</button>
-    </form>
   </article>
-
-  <!--FOOTER-->
-  <footer class="page-footer fixed-bottom" id="footer">
-    <div class="footer-copyright text-center py-3">
-      <p style="background-color:rgb(180,180,180);">
-        Copyright &copy;
-      </p>
-    </div>
-  </footer>
 </body>

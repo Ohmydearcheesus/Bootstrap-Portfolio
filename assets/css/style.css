@@ -48,7 +48,6 @@ p {
   padding: 30px 50px 8px 50px;
   color: var(--bg-color-3);
   border-radius: 5px;
-  margin: 100px 0px 100px 0px;
 }
 
 #footer {
@@ -83,4 +82,10 @@ img {
 
 article {
   padding-top: 50px;
+}
+
+input {
+  padding: 5px;
+  margin: 20px;
+  width: 100%;
 }
